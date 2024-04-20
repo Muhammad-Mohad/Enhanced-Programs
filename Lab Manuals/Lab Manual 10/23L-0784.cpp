@@ -109,7 +109,7 @@ int main()
     //     cout << myPets[i]->speak() << endl;
 
     const int size = 5;
-    Animal* myPets[size];
+    Animal* myPets[size] = {nullptr};
 
     int i = 0;
     int input = 0;
